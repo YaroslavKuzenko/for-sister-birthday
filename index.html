@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>День народження!</title>
+</head>
+<body>
+    <div class="kwest" id="kwest">
+        <div class="pytanie" id="pytanie">
+
+            <div class="pytanie_item">
+                <input type="text" class="input" placeholder="Введи прізвище та ім'я" autofocus id="name" autocomplete="off">
+                <span class="cub" id="checkCub0"></span>
+            </div>
+            
+            <div class="pytanie_item">
+                <input type="text" id="cartoon" class="input" placeholder="Введи улюблений мультфільм" autocomplete="off">
+                <span class="cub" id="checkCub1"></span>
+            </div>
+
+            <div class="pytanie_item">
+                <input type="text" id="animal" class="input" placeholder="Введи улюблену тварину">
+                <span class="cub" id="checkCub2"></span>
+            </div>
+
+            <div class="pytanie_item">
+                <input type="text" id="brother" class="input" placeholder="Введи ім'я Ярослава">
+                <span class="cub" id="checkCub3"></span>
+            </div>
+
+            <div class="pytanie_item">
+                <input type="text" placeholder="Введи суму чисел дати ДН" class="input" id="birth" min="0">
+                <span class="cub" id="checkCub4"></span>
+            </div>
+        </div>
+        
+        <div class="obraz" id="obraz">
+            <img src="img/qrCode.png" alt="QR-CODE" class="obraz_img" id="qrCode">
+            
+            <div>
+                <p class="caption">Введи відповідь сюди:</p>
+                <input type="text" class="number" id="number_1">
+                <input type="text" class="number" id="number_2">
+            </div>
+
+            <input type="button" value="Далі➜" class="button button--next" id="buttonNext">
+        </div>
+
+        <div class="koniec" id="koniec">
+            <div><img src="img/qrCode2.png" alt="qr-code" class="img_koniec"></div>
+            <p class="caption caption--koniec">Проскануй і забери подарунок!</p>
+        </div>
+
+        <input type="button" class="button button--next" value="Далі➜" id="button_1">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

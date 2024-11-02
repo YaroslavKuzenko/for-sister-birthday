@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates';
+    font-size: 14px;
+}
+
+body{
+    background-image: url(img/fon.png);
+    background-position: center;
+    padding: 0 15px;
+}
+
+/* Kwest */
+.kwest{
+    margin: 0 auto;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input{
+    width: 300px;
+    height: 40px;
+    border: 2px solid rgb(170, 5, 27);
+    box-shadow: none;
+    outline: none;
+    border-radius: 5px;
+    
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.button{
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    height: 40px;
+    color: #fff;
+    text-decoration: none;
+    background-image: -webkit-linear-gradient(top left, #fc1e00, #f79a08);
+}
+
+.cub{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+/* Obraz */
+.obraz{
+    display: none;
+}
+
+.caption{
+    display: inline-block;
+    padding: 5px;
+    margin: 0  0 10px;
+    color: #fff;
+    font-weight: 700;
+    background: -webkit-linear-gradient(top left, #fc1e00, #f79a08);
+    border-radius: 5px;
+}
+
+.caption--koniec{
+    display: block;
+    text-align: center;
+}
+
+.obraz_img{
+    width: 400px;
+    height: 400px;
+
+    padding-bottom: 10px;
+}
+
+.number{
+    width: 40px;
+    height: 40px;
+
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 2px solid  #fc1e00;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}
+
+.button--next{
+    display: inline-block;
+}
+
+
+/* Koniec */
+.koniec{
+    display: none;
+}
+
+.img_koniec{
+    width: 400px;
+    height: 400px;
+}
+
